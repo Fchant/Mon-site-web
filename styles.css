@@ -9,8 +9,9 @@ header {
   background-color: #f8f9fa;
 }
 
-.title {
-  font-size: 3em;
+.logo {
+  max-width: 100%;
+  height: auto;
   transition: transform 0.5s;
 }
 
@@ -23,13 +24,14 @@ section {
 }
 
 .video-container {
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   transition: width 0.5s;
 }
 
 video {
   width: 100%;
+  height: auto;
 }
 
 form {
