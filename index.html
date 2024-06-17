@@ -1,59 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Nettoyage Laser Professionnel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Nettoyage Laser Professionnel</h1>
-    <nav>
-      <ul>
-        <li><a href="#technology">Technologie</a></li>
-        <li><a href="#advantages">Avantages</a></li>
-        <li><a href="#videos">Démonstration Vidéo</a></li>
-        <li><a href="#contact">Contact & Devis</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="technology">
-      <h2>Technologie & Matériel</h2>
-      <p>Le décapage laser procède à un nettoyage précis et sélectif sans aucune détérioration du support traité. Il n'utilise aucun consommable, ne fait aucun bruit, et ne génère aucun déchet.</p>
-    </section>
-    <section id="advantages">
-      <h2>Avantages</h2>
-      <ul>
-        <li>Pas de nuisances sonores</li>
-        <li>Pas de consommables</li>
-        <li>Nettoyage précis et rapide</li>
-        <li>Faible consommation d'énergie</li>
-      </ul>
-    </section>
-    <section id="videos">
-      <h2>Démonstration Vidéo</h2>
-      <video controls>
-        <source src="video.mp4" type="video/mp4">
-        Votre navigateur ne supporte pas la balise vidéo.
-      </video>
-    </section>
-    <section id="contact">
-      <h2>Contact & Devis</h2>
-      <form action="submit_form.php" method="post">
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Message :</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">Envoyer</button>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 Nettoyage Laser</p>
-  </footer>
+    <header>
+        <h1 class="title">Nettoyage Laser Professionnel</h1>
+    </header>
+    <main>
+        <section id="technologie">
+            <h2>Technologie & Matériel</h2>
+            <p>Le décapage laser procède à un nettoyage précis et sélectif...</p>
+        </section>
+        <section id="avantages">
+            <h2>Avantages</h2>
+            <ul>
+                <li>Pas de nuisances sonores</li>
+                <li>Pas de consommables</li>
+                <li>Nettoyage précis et rapide</li>
+                <li>Faible consommation d'énergie</li>
+            </ul>
+        </section>
+        <section id="video">
+            <h2>Démonstration Vidéo</h2>
+            <div class="video-container">
+                <video src="path/to/video.mp4" controls></video>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact & Devis</h2>
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message :</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Nettoyage Laser</p>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
