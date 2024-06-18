@@ -6,7 +6,7 @@ window.addEventListener('scroll', function() {
 
     // Zoomer le titre
     if (scrollPosition < 200) {
-        let scale = 1 + scrollPosition / 200;
+        let scale = 1 - scrollPosition / 200;
         title.style.transform = `scale(${scale})`;
     }
 
